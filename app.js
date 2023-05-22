@@ -35,7 +35,7 @@ app.post("/", function(req, res){
     
     const options = {
         method: "POST",
-        auth: "alex1:33debaf49345ad50975c5eb4bc297831a-us7"
+        auth: "alex1:3debaf49345ad50975c5eb4bc297831a-us7"
     };
 
     const request = https.request(url, options, function name(response) {
@@ -68,5 +68,3 @@ app.listen(process.env.PORT || 3000, function(req, res){
 
 
 
-// api: 3debaf49345ad50975c5eb4bc297831a-us7
-//list id 159d2026d8
